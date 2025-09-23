@@ -1,59 +1,36 @@
-# CertificateGenerator
+# 🎓 Gerador de Certificados
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+Um projeto simples em Angular para a geração rápida de certificados.
 
-## Development server
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angular logo"  />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
 
-To start a local development server, run:
+## 📝 Sobre
 
-```bash
-ng serve
-```
+O objetivo deste projeto é fornecer uma ferramenta básica para criar certificados com nome, curso/evento e data.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Como Rodar o Projeto
 
-## Code scaffolding
+1.  **Clone o repositório e entre na pasta:**
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+    ```bash
+    git clone https://github.com/carlossroliveira/certificate-generator.git
+    cd certificate-generator
+    ```
 
-```bash
-ng generate component component-name
-```
+2.  **Instale as dependências:**
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+    ```bash
+    npm install
+    ```
 
-```bash
-ng generate --help
-```
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    ng serve
+    ```
+    Após iniciar, acesse `http://localhost:4200` no seu navegador.
 
-## Building
+---
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desenvolvido por **Carlos Oliveira** 🚀
