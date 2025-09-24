@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "gen:comp": "ng g c --path=src/app/_components --skip-tests",
+    "gen:page": "ng g c --path=src/app/pages --skip-tests"
   },
   "prettier": {
     "printWidth": 100,

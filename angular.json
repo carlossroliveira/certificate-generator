@@ -5,12 +5,7 @@
   "projects": {
     "certificate-generator": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "path": "src/app/_components",
-          "skipTests": true
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
