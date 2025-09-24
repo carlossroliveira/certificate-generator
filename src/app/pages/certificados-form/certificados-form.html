@@ -1,23 +1,34 @@
 <div class="d-flex flex-column align-items-center">
   <div class="content-titles">
     <h1 class="fw-bold custom-title">Geração de certificado</h1>
+
     <p class="mb-4 custom-subtitle">Preencha os dados para gerar um novo certificado</p>
   </div>
 
   <div class="custom-card w-100">
     <h2 class="card-title">Novo certificado</h2>
 
-    <div class="mb-3">
-      <label class="form-label">Nome</label>
-      <input type="text" class="form-control custom-input" placeholder="Nome do aluno" />
+    <div class="mb-3 custom-input-group">
+      <label for="nome" class="form-label">Nome</label>
+      <input id="nome" type="text" class="form-control custom-input" placeholder="Nome do aluno" />
+
+      <div class="error-message d-flex align-items-center">
+        <i class="ph ph-warning-circle"></i>
+        <p class="m-0">Error message</p>
+      </div>
     </div>
 
-    <div class="mb-3 d-flex align-items-end">
+    <div class="mb-3 d-flex align-items-end custom-input-group">
       <div class="flex-grow-1 me-2">
-        <label class="form-label">Atividade</label>
-        <input type="text" class="form-control custom-input" placeholder="Atividade exercida" />
-      </div>
+        <label for="atividade" class="form-label">Atividade</label>
 
+        <input
+          type="text"
+          class="form-control custom-input"
+          placeholder="Atividade exercida"
+          id="atividade"
+        />
+      </div>
       <app-secondary-button></app-secondary-button>
     </div>
 
@@ -27,6 +38,7 @@
       <div class="item-list w-100">
         <div class="item">
           <span class="item-text">Configuração com Angular CLI</span>
+
           <div class="remove-btn">
             <i class="ph-bold ph-x"></i>
           </div>
