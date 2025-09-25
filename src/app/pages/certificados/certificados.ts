@@ -1,10 +1,9 @@
 import { Component } from '@angular/core'
-import { RouterLink } from '@angular/router'
-import { SecondaryButton } from '../../_components/secondary-button/secondary-button'
+import { ItemCertificado } from "../../_components/item-certificado/item-certificado"
 
 @Component({
   selector: 'app-certificados',
-  imports: [RouterLink, SecondaryButton],
+  imports: [ ItemCertificado],
   templateUrl: './certificados.html',
   styleUrl: './certificados.css',
 })
