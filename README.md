@@ -32,3 +32,6 @@ O objetivo deste projeto é fornecer uma ferramenta básica para criar certifica
 ---
 
 Desenvolvido por **Carlos Oliveira** 🚀
+
+<img width="1072" height="781" alt="certificado" src="https://github.com/user-attachments/assets/4c46fb3d-9af4-4de5-bb31-13db74d55348" />
+
